@@ -24,8 +24,9 @@ ___
 </h3>
 
 ___
-
-<img src="" width="1200">
+<p align="center">
+  <img src="https://lh3.googleusercontent.com/pKAZfEFNDasj5u54ksHhmj37bEY9gY9Kwq6WlpoSbeeVzRgCPrNgo307rR9eR2Q2vg" width="400">
+</p>
 
 <br>
 <br>
