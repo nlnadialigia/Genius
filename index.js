@@ -127,14 +127,14 @@ function clearColor() {
     topLeft.style.backgroundColor = "darkgreen"
     topRight.style.backgroundColor = "darkred"
     bottomLeft.style.backgroundColor = "goldenrod"
-    bottomRight.style.backgroundColor = "Lightskyblue"
+    bottomRight.style.backgroundColor = "darkblue"
 }
 
 function flashColor() {
     topLeft.style.backgroundColor = "Lightgreen"
     topRight.style.backgroundColor = "tomato"
     bottomLeft.style.backgroundColor = "yellow"
-    bottomRight.style.backgroundColor = "darkblue"
+    bottomRight.style.backgroundColor = "Lightskyblue"
 }
 
 
@@ -143,6 +143,19 @@ topLeft.addEventListener('click', (event) =>{
         playerOrder.push(1)
         check()
         one()
+        if (!win) {
+            setTimeout(() => {
+                clearColor()
+            }, 300)
+        }
+    }
+})
+
+topRight.addEventListener('click', (event) =>{
+    if (on) {
+        playerOrder.push(2)
+        check()
+        two()
         if (!win) {
             setTimeout(() =>{
                 clearColor()
@@ -178,7 +191,7 @@ bottomRight.addEventListener('click', (event) =>{
 })
 
 function check() {
-    if(playerOrder[playerOrder.length - 1 !== order[order.length - 1]]) 
+    if(playerOrder[playerOrder.length - 1] !== order[playerOrder.length - 1]) 
     good = false
 
     if(playerOrder.length == 20 && good){
