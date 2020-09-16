@@ -1,7 +1,5 @@
-<h1 align="center">Jogo da Memória</h1>
-
 <p align="center">
-  <img src="https://hermes.digitalinnovation.one/site/images/logo-footer.png" width="300" heigth="300">
+  <img src="images/logo.png" width="300" heigth="300">
 </p>
 
 
@@ -17,7 +15,7 @@ ___
 
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
-
+    <a href="#interrobang-motivo">Motivo</a>&nbsp;|&nbsp;
   <a href="#rocket-tecnologias-utilizadas">Tecnologias</a>&nbsp;|&nbsp;
   <a href="#link-como-contribuir">Como Contribuir</a>&nbsp;|&nbsp;
   <a href="#licença">Licença</a>
@@ -25,7 +23,7 @@ ___
 
 ___
 <p align="center">
-  <img src="https://lh3.googleusercontent.com/pKAZfEFNDasj5u54ksHhmj37bEY9gY9Kwq6WlpoSbeeVzRgCPrNgo307rR9eR2Q2vg" width="400">
+  <img src="images/genius.png" width="400">
 </p>
 
 <br>
@@ -33,7 +31,16 @@ ___
 
 ## :information_source: Sobre
 
-Jogo da Memória estilo Genius desenvolvido Bootcamp JavaScript Game Developer, da Digital Innovation One, sendo utilizado como principais conceitos CSS Grid, manipulação de Array e Arrow Functions.
+Jogo da Memória no estilo Genius, desenvolvido com o [Tutorial do Beau Carnes](https://youtu.be/n_ec3eowFLQ).
+<br>
+<br>
+
+## :interrobang: Motivo
+
+Na realização do Bootcamp da Digital Innovation One um dos projetos desenvolvidos foi o Jogo da Memória Genius, o que foi mergeado primeiramente.
+No entanto não gostei do resultado e procurei algum tutorial que apresentasse as implementações que eu me identifico melhor.
+O [Tutorial do Beau Carnes](https://youtu.be/n_ec3eowFLQ) veio de encontro com tudo que eu procura, então resolvi atualizar o jogo.
+
 <br>
 <br>
 
